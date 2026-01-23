@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_plan_plan_features",
+  "info": {
+    "displayName": "Plan Feature",
+    "description": "Fonctionnalité d'un plan"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "included": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

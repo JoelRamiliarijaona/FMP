@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscription_plans",
+  "info": {
+    "singularName": "subscription-plan",
+    "pluralName": "subscription-plans",
+    "displayName": "Subscription Plan",
+    "description": "Plans d'abonnement FMP"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "period": {
+      "type": "enumeration",
+      "enum": ["month", "year"],
+      "default": "month"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "plan.plan-feature"
+    },
+    "popular": {
+      "type": "boolean",
+      "default": false
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "stripePriceId": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

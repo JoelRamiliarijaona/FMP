@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_stat_card_stat_cards",
+  "info": {
+    "displayName": "Stat Card",
+    "description": "Carte de statistique"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "iconName": {
+      "type": "enumeration",
+      "enum": ["Users", "Shield", "Clock", "Wrench"],
+      "default": "Users"
+    }
+  }
+}

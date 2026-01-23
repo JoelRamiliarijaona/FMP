@@ -1,0 +1,122 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": "Page d'accueil de FMP"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heroTitleHighlight": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "text"
+    },
+    "heroButtonPrimary": {
+      "type": "string"
+    },
+    "heroButtonSecondary": {
+      "type": "string"
+    },
+    "heroStats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stat-card.stat-card"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "keyFeaturesTitle": {
+      "type": "string"
+    },
+    "keyFeaturesSubtitle": {
+      "type": "string"
+    },
+    "keyFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "key-feature.key-feature"
+    },
+    "whyChooseTitle": {
+      "type": "string"
+    },
+    "whyChooseItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "why-choose-item.why-choose-item"
+    },
+    "whyChooseImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "statsCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stat-card.stat-card"
+    },
+    "videoSectionTitle": {
+      "type": "string"
+    },
+    "videoSectionDescription": {
+      "type": "text"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "featuresListTitle": {
+      "type": "string"
+    },
+    "featuresListDescription": {
+      "type": "text"
+    },
+    "featuresListItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feature-list-item.feature-list-item"
+    },
+    "featuresListImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "testimonialsTitle": {
+      "type": "string"
+    },
+    "testimonialsSubtitle": {
+      "type": "string"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "testimonial.testimonial"
+    },
+    "ctaTitle": {
+      "type": "string"
+    },
+    "ctaDescription": {
+      "type": "text"
+    },
+    "ctaButtonPrimary": {
+      "type": "string"
+    },
+    "ctaButtonSecondary": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_why_choose_item_why_choose_items",
+  "info": {
+    "displayName": "Why Choose Item",
+    "description": "Point de la section Pourquoi choisir"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_key_feature_key_features",
+  "info": {
+    "displayName": "Key Feature",
+    "description": "Fonctionnalité clé avec icône"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "iconName": {
+      "type": "enumeration",
+      "enum": ["Search", "Settings", "BarChart3", "Bell"],
+      "default": "Search"
+    }
+  }
+}

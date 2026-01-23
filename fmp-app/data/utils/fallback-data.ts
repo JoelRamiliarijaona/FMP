@@ -1,0 +1,90 @@
+import { HomePageData } from "../types/home-page.types";
+
+export const fallbackHomePageData: HomePageData = {
+  data: {
+    id: 1,
+    documentId: "fallback",
+    heroTitle: "Votre application Softeamg pour des réparations",
+    heroTitleHighlight: "belles et rapides",
+    heroSubtitle: "Automatisez la gestion, suivez les dossiers clients et pilotez vos réparations en un seul endroit.",
+    heroButtonPrimary: "Commencer",
+    heroButtonSecondary: "Voir la démo",
+    heroStats: [
+      { id: 1, title: "~100 ateliers", description: "", iconName: "Users" },
+      { id: 2, title: "Support 24/7", description: "", iconName: "Clock" },
+    ],
+    keyFeaturesTitle: "Fonctionnalités clés",
+    keyFeaturesSubtitle: "Simple, rapide et pensé pour vos équipes.",
+    keyFeatures: [
+      { id: 1, title: "Recherche", description: "Clients et réparations", iconName: "Search" },
+      { id: 2, title: "Paramètres", description: "Atelier sur mesure", iconName: "Settings" },
+      { id: 3, title: "Stats", description: "Performance claire", iconName: "BarChart3" },
+      { id: 4, title: "Alertes", description: "Rendez-vous", iconName: "Bell" },
+    ],
+    whyChooseTitle: "Pourquoi choisir Softeamg pour votre atelier ?",
+    whyChooseItems: [
+      {
+        id: 1,
+        number: "01",
+        title: "Interface intuitive",
+        description: "Prise en main rapide pour toute l'équipe.",
+      },
+      {
+        id: 2,
+        number: "02",
+        title: "Process fluide",
+        description: "Chaque réparation suit un parcours clair.",
+      },
+      {
+        id: 3,
+        number: "03",
+        title: "Support prioritaire",
+        description: "Une équipe dispo quand vous en avez besoin.",
+      },
+    ],
+    statsCards: [
+      { id: 1, title: "500+ Ateliers", description: "Nous font confiance", iconName: "Users" },
+      { id: 2, title: "Données sécurisées", description: "Chiffrement SSL", iconName: "Shield" },
+      { id: 3, title: "Support 24/7", description: "Toujours disponible", iconName: "Clock" },
+      { id: 4, title: "Rapide & efficace", description: "Workflow fluide", iconName: "Wrench" },
+    ],
+    videoSectionTitle: "Voyez comment Softeamg simplifie votre quotidien",
+    videoSectionDescription: "Un parcours clair, un suivi visuel, et des notifications automatiques pour vos clients.",
+    featuresListTitle: "Les fonctions qui font la différence",
+    featuresListDescription: "Une interface claire, des checklists par réparation, et un suivi client automatique.",
+    featuresListItems: [
+      { id: 1, text: "Dossiers clients complets" },
+      { id: 2, text: "État des réparations en temps réel" },
+      { id: 3, text: "Historique des interventions" },
+      { id: 4, text: "Inventaire des pièces" },
+      { id: 5, text: "Notifications automatiques" },
+      { id: 6, text: "Rapports détaillés" },
+    ],
+    testimonialsTitle: "Avis clients",
+    testimonialsSubtitle: "Ils utilisent Softeamg chaque jour.",
+    testimonials: [
+      {
+        id: 1,
+        name: "Marc D.",
+        role: "Atelier PhoneFix",
+        text: "Simple à mettre en place, résultat immédiat.",
+      },
+      {
+        id: 2,
+        name: "Sophie M.",
+        role: "ReparTech",
+        text: "Une interface claire, l'équipe adore.",
+      },
+      {
+        id: 3,
+        name: "Ahmed B.",
+        role: "MobileCare",
+        text: "Le meilleur outil pour suivre les réparations.",
+      },
+    ],
+    ctaTitle: "Prêt à mieux gérer votre atelier ?",
+    ctaDescription: "Essai gratuit de 14 jours, sans engagement.",
+    ctaButtonPrimary: "Essai gratuit",
+    ctaButtonSecondary: "Nous contacter",
+  },
+};

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_feature_list_item_feature_list_items",
+  "info": {
+    "displayName": "Feature List Item",
+    "description": "Élément de la liste de fonctionnalités"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

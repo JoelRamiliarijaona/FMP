@@ -1,0 +1,22 @@
+{
+  "name": "fmp-project",
+  "version": "1.0.0",
+  "description": "FMP - Gestion de Réparations de Téléphones",
+  "scripts": {
+    "dev:backend": "cd backend && npm run develop",
+    "dev:frontend": "cd fmp-app && npm run dev",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd fmp-app && npm run build",
+    "start:backend": "cd backend && npm run start",
+    "start:frontend": "cd fmp-app && npm run start"
+  },
+  "keywords": [
+    "fmp",
+    "repair",
+    "phone",
+    "nextjs",
+    "strapi"
+  ],
+  "author": "FMP Team",
+  "license": "MIT"
+}
