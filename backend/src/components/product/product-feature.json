@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_product_product_features",
+  "info": {
+    "displayName": "Product Feature",
+    "description": "Fonctionnalité d'un produit ou add-on"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

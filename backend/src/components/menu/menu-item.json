@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_menu_menu_items",
+  "info": {
+    "displayName": "Menu Item",
+    "description": "Élément de menu avec support des sous-menus"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string"
+    },
+    "hasDropdown": {
+      "type": "boolean",
+      "default": false
+    },
+    "subItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.sub-menu-item"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

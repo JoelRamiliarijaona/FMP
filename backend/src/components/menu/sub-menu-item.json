@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_menu_sub_menu_items",
+  "info": {
+    "displayName": "Sub Menu Item",
+    "description": "Élément de sous-menu"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
